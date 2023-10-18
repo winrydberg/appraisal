@@ -1,0 +1,40 @@
+.section-head {
+    display:flex;
+    flex-direction: 'row';
+    justify-content: space-between;
+}
+
+.completed-by{
+    color: red;
+    /* font-weight: bold; */
+}
+
+
+.not-completed {
+    background-color: red;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.completed {
+    background-color: rgb(70, 160, 70);
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+
+.ReactModal__Overlay .ReactModal__Overlay--after-open {
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
